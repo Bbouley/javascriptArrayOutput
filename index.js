@@ -32,3 +32,10 @@ function largest(array){
 
 var array = [4,3,7,9,8,6]
 console.log(largest(array))
+
+
+
+// var array = [4,3,7,9,8,6]
+// for (var i = 0; i < array.length; i++) {
+//   console.log(array[i])
+// }
