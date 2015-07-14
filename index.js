@@ -10,7 +10,7 @@ function mean(array){
 }
 
 var array = [11,4,1,7,2,14]
-// console.log(mean(array))
+console.log(mean(array))
 
 function largest(array){
   var largestNum = 0;
