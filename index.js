@@ -1,30 +1,30 @@
-var total = 0
-var array = [1,2,3,4,5,6,7,8,9]
-
-function mean(){
-//cycle through array
+function mean(array){
+  var total = 0;
+  //cycle through array
   for (i=0; i<array.length; i++){
-    //puts in calculation to add each nuber in array
-    var newTotal = (total += array[i])/array.length;
+    //puts in calculation to add each number in array
+    var newTotal = (total += array[i]);
      }
-  //returns variable created above
-  return newTotal;
+  //returns variable created above divided by array length
+  return newTotal/array.length;
 }
+
+var array = [11,4,3,7,8,15]
 console.log(mean(array))
 
-
-var largestNum = array[0]
-
-function largest(){
+function largest(array){
+  var largestNum = 0;
   //cycle through array
   for (i=0; i<array.length; i++){
     // if statement to check if number at that position in array
-    //is larger than largestnum variable
+    //is larger than largestNum variable
     if (array[i] > largestNum){
       //if number at that position in array is larger than num at position [0]
-       largestNum = array[i]
+       largestNum = array[i];
        //sets largestNum variable to the number at that position in array
       }
-   } return largestNum
+   } return largestNum;
 }
+
+var array = [9,4,3,7,8,12]
 console.log(largest(array))
