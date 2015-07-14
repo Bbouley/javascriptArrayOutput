@@ -1,5 +1,5 @@
 var total = 0
-var array = [1,2,3,4,5]
+var array = [1,2,3,4,5,6,7,8,9]
 
 function mean(){
 //cycle through array
@@ -25,6 +25,6 @@ function largest(){
        largestNum = array[i]
        //sets largestNum variable to the number at that position in array
       }
-   } return largestnum
+   } return largestNum
 }
 console.log(largest(array))
