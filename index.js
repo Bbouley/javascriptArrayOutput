@@ -9,8 +9,8 @@ function mean(array){
   return newTotal/array.length;
 }
 
-var array = [11,4,3,7,8,15]
-console.log(mean(array))
+var array = [11,4,1,7,2,14]
+// console.log(mean(array))
 
 function largest(array){
   var largestNum = 0;
@@ -23,8 +23,12 @@ function largest(array){
        largestNum = array[i];
        //sets largestNum variable to the number at that position in array
       }
-   } return largestNum;
+    console.log("largestNum", largestNum);
+    console.log("array value", array[i]);
+    console.log("");
+   }
+   return largestNum;
 }
 
-var array = [9,4,3,7,8,12]
+var array = [4,3,7,9,8,6]
 console.log(largest(array))
